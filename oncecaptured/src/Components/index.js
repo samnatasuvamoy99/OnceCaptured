@@ -13,9 +13,12 @@ import PostForm from "./post-form/PostForm";
 import Signup from "../pages/Signup";
 import Login from "../pages/Login";
 import post from "./post"
-import PostForm from "./post-form/PostForm";
-   import PostCard from "./PostCard";
-
+  import PostForm from "./post-form/PostForm";
+  import PostCard from "./PostCard";
+  import AuthLayout from "/AuthLayout";
+  import Allpost from"./pages/Allpost";
+  import Addpost from"pages/Addpost";
+  import EditPost from"pages/EditPost";
 
 export { 
   Header, 
@@ -34,6 +37,10 @@ export {
   Login,
   post,
   PostForm,
-  PostCard
+  PostCard,
+  AuthLayout,
+  Allpost,
+  Addpost,
+  EditPost
 
 };
