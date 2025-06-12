@@ -1,6 +1,6 @@
 import React from 'react'
 import{Link} from 'react-router-dom'
-function Card( {$id , title,featuredImage}) {
+function PostCard( {$id , title,featuredImage}) {
   return (
          <Link to={`/post/${id}`}>
              <div className='bg-white shadow-md rounded-lg overflow-hidden'>
@@ -17,4 +17,4 @@ function Card( {$id , title,featuredImage}) {
   )
 }
 
-export default Card
+export default PostCard

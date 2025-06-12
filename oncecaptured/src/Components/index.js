@@ -5,9 +5,17 @@ import logo from './Logo';
 import LogoutBtn from "./Header/LogoutBtn";
 import Login from "./Header/Login";
 import RTE from "./RTE";
-import Button from "./Button";
+import Button from "./post-form/Button";
 import Input from "./Input";
 import Select from "./Select";
+import post from "./Post";
+import PostForm from "./post-form/PostForm";
+import Signup from "../pages/Signup";
+import Login from "../pages/Login";
+import post from "./post"
+import PostForm from "./post-form/PostForm";
+   import PostCard from "./PostCard";
+
 
 export { 
   Header, 
@@ -19,6 +27,13 @@ export {
   RTE,
   Button,
   Input,
-  Select
+  Select,
+  post,
+  PostForm,
+  Signup,
+  Login,
+  post,
+  PostForm,
+  PostCard
 
 };
